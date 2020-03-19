@@ -42,7 +42,7 @@ class Routine extends React.Component {
         return (
             <div className="routine">
                 <h2>{this.state.name}</h2>
-                <p>{this.state.workouts.length} exercises</p>
+                <p>{this.state.workouts.length} workout(s) in this routine.</p>
                 <p>{this.state.description}</p>
                 <WorkoutList workouts={this.state.workouts} history={this.props.history} />
             </div>
